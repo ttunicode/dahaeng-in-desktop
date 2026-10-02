@@ -1,0 +1,60 @@
+{
+  "name": "dahaengi-desktop-pet",
+  "source": "Generated from the supplied Dahaengi character reference",
+  "image_size": [
+    1536,
+    1024
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_01.png",
+        "idle_02.png",
+        "idle_03.png",
+        "idle_04.png"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "walk": {
+      "frames": [
+        "walk_01.png",
+        "walk_02.png",
+        "walk_03.png",
+        "walk_04.png",
+        "walk_05.png",
+        "walk_06.png",
+        "walk_07.png",
+        "walk_08.png"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "run": {
+      "frames": [
+        "run_01.png",
+        "run_02.png",
+        "run_03.png",
+        "run_04.png",
+        "run_05.png",
+        "run_06.png",
+        "run_07.png",
+        "run_08.png"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "sleep": {
+      "frames": [
+        "sleep_01.png",
+        "sleep_02.png",
+        "sleep_03.png",
+        "sleep_04.png",
+        "sleep_05.png",
+        "sleep_06.png"
+      ],
+      "fps": 3,
+      "loop": true
+    }
+  }
+}

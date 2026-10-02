@@ -1,0 +1,43 @@
+{
+  "name": "dahaengi-desktop-pet",
+  "version": "1.0.0",
+  "description": "다행이 데스크톱 펫 앱",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.dahaengi.desktop-pet",
+    "productName": "다행이",
+    "copyright": "Copyright © 2024",
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.html",
+      "renderer.css",
+      "renderer.js",
+      "animation.js",
+      "character.js",
+      "behavior.js",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": "dir",
+      "signAndEditExecutable": false
+    },
+    "forceCodeSigning": false
+  },
+  "author": "",
+  "license": "MIT"
+}
